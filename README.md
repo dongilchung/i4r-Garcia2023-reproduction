@@ -1,5 +1,5 @@
 ## Instructions
-The MATLAB code used to analyze the data presented in the article [Reproduction report of Garcia et al. (2023) “Experiential values are underweighted in decisions involving symbolic options”](https://www.nature.com/articles/s41562-022-01496-3) can be found in this repository.
+The MATLAB code used to analyze the data presented in the article [Reproduction report of Garcia et al. (2023) “Experiential values are underweighted in decisions involving symbolic options”] can be found in this repository.
 
 Each MATLAB script in the root folder begins by calling ```init.m```.
 
