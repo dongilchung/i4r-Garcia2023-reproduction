@@ -5,6 +5,8 @@ Each MATLAB script in the root folder begins by calling ```init.m```.
 
 Before running any ```FigureX_TableX.m``` or ```Appendix_AX.m``` scripts, ensure that the ```data/fit``` folder contains the output from running ```fit_LE.m```, ```fit_logistic_ES.m```,  ```fit_logistic_EE.m```, ```fit_repl_LE.m```, ```fit_repl_logistic_ES.m```,  ```fit_repl_logistic_EE.m```, ```parameter_recovery_LE.m```, ```parameter_recovery_logistic_ES.m```, and  ```parameter_recovery_logistic_EE.m```.
 
+The ```a_Run_Code.m``` script provides an overview of the order in which the code should be executed. Please refer to the explanation below for details on ```Hierarchical Bayesian Estimates```.
+
 To get results of ```Hierarchical Bayesian Estimates```, ensure to run  ```trans_stanBehav_LE```, ```trans_stanBehav_ES```, and ```trans_stanBehav_EE``` and run R scripts in the ```Stan``` folder. 
 (Scripts; 1. ```sv_mf_XX.R``` 2. ```Combine_compare_mf_XX.R```) 
 
