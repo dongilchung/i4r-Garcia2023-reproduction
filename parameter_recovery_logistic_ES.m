@@ -52,8 +52,8 @@ for exp_num = selected_exp
         for j = 1:length(p_sym)
             for k = 1:length(p_lot)
                 xUtil1 = p_lot(k);
-                xUtil2 = pre.midpoints(nsub,j);
-                phat = 1./(1+exp(-pre.beta1(nsub)*(xUtil2-xUtil1)));
+                xUtil2 = pre.midpoints(i,j);
+                phat = 1./(1+exp(-pre.beta1(i)*(xUtil2-xUtil1)));
                 if phat>rand
                     tempCh = 1;
                 else
